@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	text-align: center;
+	background-image: url(ba);
+	background-size: cover;
+	font-family: sans-serif;
+	 background-color: #222222 !important;
+	 margin: 0px;
+	 max-width: 100%;
+     margin: auto;
+}
+
+
+.nav{
+	position: relative;
+	bottom: 20px;
+	width: 100px;
+	height: 75px;
+	float: left;
+	margin-left: 15px;
+}
+#nav1{
+	
+	width: 100%;
+	height: 70px;
+	background: black;
+	margin-bottom: 10px;
+	
+
+}
+nav::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+ul{
+	color: #ffffff;
+	float: right;
+	list-style: none;
+	padding: 0;
+}
+li{
+	padding-top: 24px;
+	display: inline-block;
+	margin-left: 7px;
+	text-transform: uppercase;
+	position: relative;
+	margin-right: 20px;
+
+}
+a{
+	text-decoration: none;
+	color: red;
+	cursor: pointer;
+}
+ul{
+	margin: 0;
+	height: 70px;
+	width: 15px;
+
+}
+li::before {
+	content: "";
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: red;
+	position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 350ms;
+}
+li:hover::before{
+	width: 100%;
+}
+li:hover{
+	color: white;
+}
+a.col:hover{
+     color: white;
+}
+
+
+
+article{      
+		color: white;
+        font-style: bold;
+         height: 100%;
+         width: 100%;
+	}	
+h1{
+	color: red;
+	font-size: 250%;
+	text-align: center;
+}	
+header{
+    padding: 10px;
+}	
+h5{
+	font-size: 140%;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+h4{
+	font-size: 170%;
+	text-align: center;
+	padding: 10px;
+}
+
+
+div{
+    display: table-cell;
+    height: 25%;
+    padding: 20px 20px 20px 20px;
+    background: black; 
+}
+section{
+     height: 310%;
+     width: 100%;
+     overflow: auto;
+}
+footer{
+       background-position: center bottom;
+}
+.image{
+	 width:210PX; 
+	 height:310PX; 
+}
+<!-- .disc{
+	    font-size: 100%;
+		font-style: italic;
+	} -->
+#head{
+		font-size: 250%;
+		color: red;
+	}
+p#physc{
+		color: red;
+		font-size: 250%;
+	}
+div > p{
+		color: purple;
+	}
+footer p{
+		text-align: center;
+		font-size: 100%;
+	}
+#physc p{
+		cursor: pointer;
+	}
+div:hover h5{
+background-color: #282828; 
+color: red; 
+}
+div:hover{
+	background-color: #282828; 
+}
+p#physc:hover{
+	color: blue;
+    cursor: pointer;
+}
+#carouselExampleInterval{
+	width: 100%;
+	padding: 0px;
+}
+.carousel-item, .active{
+	padding: 0px;
+}
+.container{
+	padding: 0px;
+}
